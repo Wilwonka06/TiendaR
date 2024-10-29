@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif !important;
+    font-weight: bold;
+}
+
+p{
+    font-weight: lighter;
+}
+.menu{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4e0db;
+    font-size: 15px;
+    
+}
+
+.menu{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    gap: 1;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4e0db;
+    font-size: 15px;
+    
+}
+.menu li{
+    list-style: none;
+    width: 33%; 
+    display: flex;
+}
+.menu li:first-child{
+    justify-content: start;
+    padding-left: 10px;
+}
+.menu li:nth-child(2){
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li label{
+    display: flex;
+    justify-content: end;
+}
+.menup{
+    color: #232a2f;
+    text-decoration: none;
+}
+
+.agregar a{
+    background-color: #262520;
+    font-size: 15px;
+    text-decoration: none;
+    color: #e4e0db;
+    display: flex;
+    align-items: center;
+}
+.agregar a:hover{
+    background-color: #806554;
+    transition: .7;
+}
+
+.boton{
+    background-color: #cbbfb3;
+}
+.botonB{
+    background-color: #edeae4;
+}
+
+.boton:hover{
+    background-color: #806554;
+    transition: .5;
+}
+.botonB:hover{
+    background-color: #adb8bb;
+    transition: .5;
+}
+
+.table td {
+    font-weight: normal; /* Asegura que el texto en las celdas no esté en negrita */
+}
+
+.banner{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    background-color: #e4e0db;
+}
